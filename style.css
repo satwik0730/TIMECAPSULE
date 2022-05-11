@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+    height: 180vh;
+    
+  }
+
+
+.navbar{
+  background:rgba(0,0,0,.4);
+  top: 0;left: 0;right:0;
+}
+.navbar-nav{
+  color: white;
+
+}
+#ey{
+  background: white;
+  color: black;
+}
+#r6{
+  font-size: small;
+  margin-top: 9rem;
+  color: black;
+  text-shadow: none;
+  font-weight: 500;
+}
+p{
+  font-family: 'Monte Carlo';
+}
+body{
+  
+background-repeat: no-repeat;
+background-size:100% 75%;
+    background-image: linear-gradient(to bottom,transparent,rgba(0,0,0)) , url(images/146.jpg);
+    
+}
+
+.controls{
+    width: 100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#logo{
+    color: rgb(255, 153, 0);
+    font-size: 2.3rem;
+    font-weight: bolder ;
+    font-family:'Berkshire swash', cursive;
+    text-shadow:1px 1px black;
+}
+
+
+#hm{
+  color: rgb(255, 255, 255);
+  align-items: center ;
+  justify-content: space-between;
+  font-weight: 500;
+  display: flex;
+  margin:0 4.5rem;
+  font-family:'Berkshire Swash', cursive;
+  font-size: medium;
+}
+
+
+#ab{
+  color: rgb(255, 255, 255);
+  align-items: center ;
+  justify-content: space-between;
+  font-weight: 500;
+  display: flex;
+  font-size: medium;
+  margin:0 4.5rem;
+  font-family:'Berkshire Swash', cursive;
+}
+
+
+#co{
+  color: rgb(255, 255, 255);
+  align-items: center ;
+  justify-content: space-between;
+  font-weight: 500;
+  display: flex;
+  font-size: medium;
+  margin:0 4.5rem;
+  font-family:'Berkshire Swash', cursive;
+
+}
+.form-control{
+    border-radius: 70px;
+    display: flex;
+}
+.video-container video{
+    position: absolute;
+    top:0; left: 0;
+    z-index: -1;
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+  }
+  .controls{
+    padding:0;
+    border-radius: 60px;
+    background:rgba(0,0,0,.7);
+    position: relative;
+    top:35rem;
+    left: 44%;
+    width: 13%;
+    display: flex;    
+  }
+.controls .vid-btn{
+    height:13px;
+    width:13px;
+    display: inline-block;
+    border-radius: 50%;
+    background:#fff;
+    cursor: pointer;
+    margin:0 .5rem;
+}
+  
+.controls .vid-btn.active{
+    background:var(--orange);
+  }
+  p{
+    font-size: 1.3rem;
+    color:rgb(255, 253, 253);
+    font-family:'Monte Carlo';
+    left: 40%;
+    text-shadow: 1px 1px black ;
+   
+   
+  }
+
+h1{
+    color:rgb(255, 255, 255);
+   
+    
+    position: relative;
+    margin-top: 7rem;
+    
+    font-family:'Monte Carlo';
+   
+    font-size: 4.5rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+    
+  }
+.content btn-group{
+    margin-top: 45px;
+
+}
+.content a{
+  display: inline-block;
+  padding: 15px 45px;
+  text-decoration:none;
+}
+
+
+.btn-group a.color1{
+  background: linear-gradient(orange, orangered);
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  margin-top: 1rem;
+  margin-bottom: 12rem;
+  
+  
+}
+#wave{
+  height: 55rem;
+  bottom: 0;
+}
+#ft{
+  color: black;
+  
+}
+.color2{
+  margin-top: 1rem;
+  margin-left:2rem;
+  background:none;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  border: 0.5px solid rgb(255, 248, 248);
+  margin-bottom: 12rem;
+
+}
+
+.content a:hover {
+ letter-spacing: 6px;
+
+
+}
+#ft
+{
+  width: 45%;
+  text-shadow:none;
+  margin-left: 2rem;
+  font-size: medium;
+  margin-top: 3rem;
+}
+#pt{
+  color: black;
+  top: 0;
+  float: right;
+  margin-left: 0px;
+  text-align: left;
+  font-size: medium;
+  text-shadow: none;
+  float: inline-start;
+  width: 50%;
+  margin-right: -2rem;
+}
+.container p{
+  margin-top: 0rem;
+  font-size: medium;
+  text-shadow: none;
+  width: 50%;
+  display: inline-block;
+
+}
+
+.column{
+
+ float: right;
+ margin-top: 7rem;
+ margin-left: 5rem;
+}
+#gg{
+  text-shadow: none;
+  font-size: x-small;
+  color: rgb(25, 0, 255);
+}
+h4{
+  font-size: smaller;
+  font-weight: bolder;
+  color: rgb(25, 0, 255);
+}
+#rw
+{
+  float: right;
+}
